@@ -41,7 +41,7 @@ def factorial(n):
         return n * factorial(n-1)
 
 def binom(x, n, p):
-	return ( factorial(n) / factorial(x) * factorial(n - x) ) * ( p**x ) * ( (1-p)**(n-x) )
+	return ( factorial(n) / (factorial(x) * factorial(n - x)) ) * ( p**x ) * ( (1-p)**(n-x) )
 
 
 total = 0

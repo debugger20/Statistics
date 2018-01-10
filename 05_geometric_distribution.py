@@ -34,7 +34,7 @@
 
 # TASK
 # The probability that a machine produces a defective product is 1/3.
-# What is the probability that the 1st defect is found during the first 5th inspections?
+# What is the probability that the 1st defect is found during the first 5 inspections?
 # n(1, 1/3) + n(2, 1/3) + n(3, 1/3) + n(4, 1/3) + n(5, 1/3)
 
 def geometric(n, p):
